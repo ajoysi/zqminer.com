@@ -1,0 +1,479 @@
+$(document).ready(function() {
+    var lang = $("body").attr("lang");
+
+    // $("#regist-box").addClass("hide");
+    // $("#regist-success-box").addClass("hide");
+
+    function loginBoxShow() {
+        $("#login-box").removeClass("hide");
+        $("#login-box").addClass("show");
+    };
+
+    function loginBoxHide() {
+        $("#login-box").removeClass("show");
+        $("#login-box").addClass("hide");
+    };
+
+    function registBoxShow() {
+        $("#regist-box").removeClass("hide");
+        $("#regist-box").addClass("show");
+    };
+
+    function registBoxHide() {
+        $("#regist-box").removeClass("show");
+        $("#regist-box").addClass("hide");
+    };
+
+    function registSuccessBoxShow() {
+        $("#regist-success-box").removeClass("hide");
+        $("#regist-success-box").addClass("show");
+    };
+
+    function registSuccessBoxHide() {
+        $("#regist-success-box").removeClass("show");
+        $("#regist-success-box").addClass("hide");
+    };
+
+    $("#toLoginLink").click(function() {
+        registBoxHide();
+        loginBoxShow();
+    });
+
+    $("#regist-btn").click(function() {
+        loginBoxHide();
+        registBoxShow();
+    });
+
+    $("#regist-box-close").click(registBoxHide);
+
+    $("#regist-success-box-close").click(registSuccessBoxHide);
+
+    $("#regist-show-password").click(function() {
+        var type = $("#regist-password").attr("type");
+        if (type == "password") {
+            $("#regist-password").attr("type", "text");
+            $("#regist-show-password").removeClass("i_pwd_hidden");
+            $("#regist-show-password").addClass("i_pwd_show");
+        } else {
+            $("#regist-password").attr("type", "password");
+
+            $("#regist-show-password").removeClass("i_pwd_show");
+            $("#regist-show-password").addClass("i_pwd_hidden");
+        }
+    });
+
+    $("#regist-show-rept-password").click(function() {
+        var type = $("#regist-rept-password").attr("type");
+        if (type == "password") {
+            $("#regist-rept-password").attr("type", "text");
+            $("#regist-show-password").removeClass("i_pwd_hidden");
+            $("#regist-show-password").addClass("i_pwd_show");
+        } else {
+            $("#regist-rept-password").attr("type", "password");
+            $("#regist-show-password").removeClass("i_pwd_show");
+            $("#regist-show-password").addClass("i_pwd_hidden");
+        }
+    });
+
+
+    function checkAccount() {
+        var v = $("#regist-account").val();
+        var temp = true;
+      
+        if (v) {
+            $.ajax({
+                url: "/account/account_exist/",
+                data: { account: v },
+                dataType: "json",
+                type: "get",
+                async:false,
+                error: function() {},
+                success: function(data) {
+
+                    if (data.Code != "0") {
+                        switch (data.Code) {
+                            case "10009":
+                                $("#regist-account-error").addClass("show");
+                                if (lang == "en") {
+                                    $("#regist-account-error").html("Please input account name");
+                                } else {
+                                    $("#regist-account-error").html("请输入用户名");
+                                }
+                                temp = false;
+                                break;
+                            case "10010":
+                                $("#regist-account-error").addClass("show");
+                                if (lang == "en") {
+                                    $("#regist-account-error").html("Account format error");
+                                } else {
+                                    $("#regist-account-error").html("用户名格式不正确");
+                                }
+                                temp = false;
+                                break;
+                            case "10003":
+                                $("#regist-account-error").addClass("show");
+                                if (lang == "en") {
+                                    $("#regist-account-error").html("Account already exist");
+                                } else {
+                                    $("#regist-account-error").html("用户已存在");
+                                }
+                                temp = false;
+                                break;
+                        }
+                    }
+                }
+
+            });
+
+        } else {
+            $("#regist-account-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-account-error").html('请输入用户名');
+            } else {
+                $("#regist-account-error").html('Please input account name');
+            }
+            return false;
+        }
+        
+        return temp;
+
+    };
+
+    function checkEmail() {
+        var v = $("#regist-email").val();
+        if (v) {
+            $.ajax({
+                url: "/account/email_exist/",
+                data: { email: v },
+                dataType: "json",
+                type: "get",
+                error: function() {},
+                success: function(data) {
+                    if (data.Code != "0") {
+                        switch (data.Code) {
+                            case "90005":
+                                $("#regist-email-error").addClass("show");
+                                if (lang == "en") {
+                                    $("#regist-email-error").html("Please input email address");
+                                } else {
+                                    $("#regist-email-error").html("请输入邮箱地址");
+                                }
+                                break;
+                            case "10010":
+                                $("#regist-email-error").addClass("show");
+                                if (lang == "en") {
+                                    $("#regist-email-error").html("Email format error");
+                                } else {
+                                    $("#regist-email-error").html("邮箱格式不正确");
+                                }
+                                break;
+                            case "10004":
+                                $("#regist-email-error").addClass("show");
+                                if (lang == "en") {
+                                    $("#regist-email-error").html("Email already exist");
+                                } else {
+                                    $("#regist-email-error").html("邮箱已注册");
+                                }
+                                break;
+                        }
+                    }
+                }
+            });
+        } else {
+
+            $("#regist-email-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-email-error").html('请输入邮箱地址');
+            } else {
+                $("#regist-email-error").html('Please input email address');
+            }
+
+            return false;
+        }
+        return true;
+    };
+
+    function checkPswd() {
+        var v = $("#regist-password").val();
+        if (v.length == 0) {
+            $("#regist-password-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-password-error").html('请输入密码');
+            } else {
+                $("#regist-password-error").html('Please input password');
+            }
+            return false;
+        }
+        if (v.length > 0 && v.length < 6) {
+            $("#regist-password-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-password-error").html('密码过短');
+            } else {
+                $("#regist-password-error").html('Password is too short');
+            }
+            return false;
+        }
+        if (v.length > 16) {
+            $("#regist-password-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-password-error").html('密码过长');
+            } else {
+                $("#regist-password-error").html('Password is too long');
+            }
+            return false;
+        }
+        return true;
+    };
+
+    function checkPswdRept() {
+        var pswd = $("#regist-password").val();
+        var rept = $("#regist-rept-password").val();
+        if (rept.length == 0) {
+            $("#regist-rept-password-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-rept-password-error").html('请再次输入密码');
+            } else {
+                $("#regist-rept-password-error").html('Please repeat password');
+            }
+            return false;
+        }
+        if (rept.length > 0 && rept != pswd) {
+            $("#regist-rept-password-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-rept-password-error").html('两次输入密码不一致');
+            } else {
+                $("#regist-rept-password-error").html('Password not match');
+            }
+            return false;
+        }
+        return true;
+    };
+
+    function checkCaptcha() {
+        var v = $("#regist-captcha").val();
+        if (v.length == 0) {
+            $("#regist-captcha-error").addClass("show");
+            if (lang == 'cn') {
+                $("#regist-captcha-error").html('请输入验证码');
+            } else {
+                $("#regist-captcha-error").html('Please input captcha');
+            }
+            return false;
+        }
+        return true;
+    }
+
+    function refreshCaptcha() {
+        $.ajax({
+            url: "/api/refresh_captcha",
+            data: {},
+            dataType: "json",
+            type: "post",
+            error: function() {
+                alert("error ")
+            },
+            success: function(data) {
+                switch (data.Code) {
+                    case "0":
+                        $("#regist-captcha-img").attr("src", "/captcha/" + data.Msg + ".png");
+                        $("#regist-captcha-id").attr("value", data.Msg);
+                        break;
+                }
+            }
+        });
+    };
+
+    $("#regist-captcha-refresh").click(function() {
+        refreshCaptcha();
+    });
+
+    $("#regist-account").focus(function() {
+        $("#regist-account-error").removeClass("show");
+    }).blur(checkAccount);
+
+    $("#regist-email").focus(function() {
+        $("#regist-email-error").removeClass("show");
+    }).blur(checkEmail);
+
+    $("#regist-password").focus(function() {
+        $("#regist-password-error").removeClass("show");
+    }).blur(checkPswd);
+
+    $("#regist-rept-password").focus(function() {
+        $("#regist-rept-password-error").removeClass("show");
+    }).blur(checkPswdRept);
+
+    $("#regist-confirm-btn").click(function() {
+        var btn = $(this);
+        if (btn.attr("processing")) {
+            return;
+        }
+        
+        if (!checkAccount()) {          
+            return;
+        }
+       
+
+        if (!checkEmail()) {
+            return;
+        }
+
+        if (!checkPswd()) {
+            return;
+        }
+
+        if (!checkPswdRept()) {
+            return;
+        }
+
+        if (!checkCaptcha()) {
+            return;
+        }
+
+        if (!($("#agreement").is(":checked"))) {
+            if (lang == 'cn') {
+                alert("请同意协议");
+            } else {
+                alert("Please agree the agreement");
+            }
+            return;
+        }
+        var account = $("#regist-account").val();
+        var email = $("#regist-email").val();
+        var pswd = $("#regist-password").val();
+        var captcha = $("#regist-captcha").val();
+        var captcha_id = $("#regist-captcha-id").val();
+
+        btn.addClass("b_btnDisable");
+        btn.attr("processing", "true");
+
+        $.ajax({
+            url: "/account/register/",
+            data: {
+                account: account,
+                email: email,
+                password: pswd,
+                captcha: captcha,
+                captcha_id: captcha_id,
+            },
+            dataType: "json",
+            type: "post",
+            error: function() {
+                btn.removeClass("b_btnDisable");
+                btn.removeAttr("processing");
+            },
+            success: function(data) {
+                //alert(data.Code)
+                //alert(data.Msg)
+                switch (data.Code) {
+                    case "0":
+                        registBoxHide();
+                        $("#regist-email-tips").html(email);
+                        registSuccessBoxShow();
+                        break;
+                    case "10001":
+                        if (lang == "cn") {
+                            alert("验证码错误，请重新输入。");
+                        } else {
+                            alert("Captcha wrong,please input again")
+                        }
+                        refreshCaptcha();
+                        break;
+                    case "10003":
+                        if (lang == "cn") {
+                            alert("账号已存在，请重新输入。");
+                        } else {
+                            alert("Account already exist,please input again")
+                        }
+
+                        $("#pswd").val("");
+                        $("#rept-pswd").val("");
+                        $("#captcha").val("");
+                        refreshCaptcha();
+                        break;
+                    case "10004":
+                        if (lang == "cn") {
+                            alert("邮箱已存在，请重新输入。");
+                        } else {
+                            alert("Email already exist,please input again")
+                        }
+
+                        $("#pswd").val("");
+                        $("#rept-pswd").val("");
+                        $("#captcha").val("");
+                        refreshCaptcha();
+                        break;
+                    case "90005":
+                        if (lang == "cn") {
+                            alert("资料填写不完整");
+                        } else {
+                            alert("Incomplete information")
+                        }
+                        $("#pswd").val("");
+                        $("#rept-pswd").val("");
+                        $("#captcha").val("");
+                        refreshCaptcha();
+                        break;
+                    case "90003":
+                        if (lang == "cn") {
+                            alert("系统错误,请重新注册");
+                        } else {
+                            alert("System error, please register again")
+                        }
+                        $("#pswd").val("");
+                        $("#rept-pswd").val("");
+                        $("#captcha").val("");
+                        refreshCaptcha();
+                        break;
+                    case "10010":
+                        $("#regist-account-error").addClass("show");
+                        if (lang == "en") {
+                            $("#regist-account-error").html("Account format error");
+                        } else {
+                            $("#regist-account-error").html("用户名格式不正确");
+                        }
+                        break;
+                    default:
+                        alert(data.Msg);
+                        $("#pswd").val("");
+                        $("#rept-pswd").val("");
+                        $("#captcha").val("");
+                        refreshCaptcha();
+                        break;
+                }
+                btn.removeClass("b_btnDisable");
+                btn.removeAttr("processing");
+            }
+        });
+
+
+
+
+    });
+
+    $("#j-resend-email").click(function() {
+        $.ajax({
+            url: '/account/send_verify_email',
+            data: {},
+            dataType: "json",
+            type: "post",
+            error: function() {},
+            success: function(data) {
+                switch (data.Code) {
+                    case "10013":
+                        alert("邮箱已验证,请登录");
+                        registSuccessBoxHide();
+                        break;
+                    case "90001":
+                        alert("操作失误,请重新注册");
+                        break;
+                    case "0":
+                        alert("重新发送成功");
+                        break;
+
+                }
+            }
+        });
+    });
+
+});

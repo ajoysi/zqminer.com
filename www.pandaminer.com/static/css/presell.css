@@ -1,0 +1,337 @@
+.topLogo {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  display: block;
+  text-indent: -9999px;
+  left: 50%;
+  margin-left: -150px;
+  top: 30px;
+}
+
+.page_indexPresell .pageMod_1 {
+  height: 1120px;
+  background: url("../img/presellBg1.png"/*tpa=https://www.pandaminer.com/static/img/presellBg1.png*/) 50% 0 no-repeat;
+}
+
+.page_indexPresell .pageMod_2 {
+  height: 920px;
+  background: url("../img/presellBg2.png"/*tpa=https://www.pandaminer.com/static/img/presellBg2.png*/) 50% 0 no-repeat;
+}
+
+.page_indexPresell .pageMod_1 .orderNow {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 660px;
+  margin-bottom: 60px;
+}
+
+.page_indexPresell .pageMod_1 .productList {
+  width: 1210px;
+  position: relative;
+  margin-left: -65px;
+  overflow: hidden;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem {
+  width: 450px;
+  margin-left: 110px;
+  float: left;
+  text-align: center;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem p {
+  margin-bottom: 5px;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem .productImg {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem .productName {
+  font-size: 24px;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem .productSlogan {
+  font-size: 16px;
+  color: #666;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem .productParamTable {
+  width: 100%;
+  margin: 15px 0 25px;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem .productParamTable td {
+  width: 33.3%;
+  border: 1px solid #e5e5e5;
+  height: 40px;
+}
+
+.page_indexPresell .pageMod_1 .productList .productItem .btnProductPrice {
+  width: 160px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.page_indexPresell .pageMod_2 .companyIntro {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 325px;
+}
+
+.page_indexPresell .pageMod_2 .companyIntro h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.page_indexPresell .pageMod_2 .companyIntro h3 {
+  font-size: 22px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.page_indexPresell .pageMod_2 .companyIntro p {
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.page_indexPresell .pageMod_2 .media {
+  line-height: 22px;
+  text-align: center;
+  margin-left: -30px;
+  margin-top: 175px;
+}
+
+.page_indexPresell .pageMod_2 .mediaIcon {
+  background: url("../img/presellSprite.png"/*tpa=https://www.pandaminer.com/static/img/presellSprite.png*/);
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+.page_indexPresell .pageMod_2 .mediaIcon_mail {
+  background-position: 0 -44px;
+}
+
+.page_indexPresell .pageMod_2 .mediaIcon_tw {
+  background-position: 0 -22px;
+}
+
+.page_indexPresell .pageMod_2 .cpRight {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.page_productPresell .pageMod_productIntro {
+  background: url("../img/presellProductBg1.png"/*tpa=https://www.pandaminer.com/static/img/presellProductBg1.png*/) 50% 0 no-repeat;
+  height: 707px;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .productName {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .productName .presellIccon {
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #ff7611;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .productFeature {
+  font-size: 16px;
+  color: #666;
+  margin-top: 15px;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .productPrice {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #333;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .productPrice .rmbPrice {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .productPrice .btcPrice {
+  font-size: 14px;
+  color: #999;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .contactBox {
+  width: 600px;
+  height: 140px;
+  border: 1px solid #FF0000;
+  margin: 50px auto 0;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .contactBox .contactTitle {
+  padding: 15px 0 20px;
+  font-size: 18px;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .contactBox .contacts {
+  text-align: left;
+  padding-left: 115px;
+}
+
+.page_productPresell .pageMod_productIntro .f_wrapper .contactBox .contacts span {
+  display: inline-block;
+  margin: 0 0 15px;
+  width: 220px;
+}
+
+.page_productPresell .commonMod {
+  width: 820px;
+  margin: 0 auto;
+}
+
+.page_productPresell .modTitle {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.page_productPresell .mod_feature .featureList {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.page_productPresell .mod_feature .featureList .featureItem {
+  float: left;
+  width: 250px;
+  text-align: center;
+}
+
+.page_productPresell .mod_feature .featureList .featureItem img {
+  margin-bottom: 18px;
+}
+
+.page_productPresell .mod_feature .featureList .featureItem p {
+  line-height: 22px;
+}
+
+.page_productPresell .paramTable {
+  width: 100%;
+  text-align: center;
+}
+
+.page_productPresell .paramTable td {
+  border: 1px solid #dfdfdf;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  position: relative;
+  line-height: 18px;
+}
+
+.page_productPresell .paramTable .tdTitle {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  color: #666;
+  font-size: 12px;
+}
+
+.page_productPresell .mod_presell {
+  border: 1px solid #FF0000;
+  margin-top: 75px;
+  padding-bottom: 50px;
+}
+
+.page_productPresell .mod_presell .modTitle {
+  color: #FF0000;
+}
+
+.page_productPresell .mod_presell .presellRule {
+  padding: 0 140px;
+}
+
+.page_productPresell .mod_presell .presellRule p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.page_productPresell .mod_text {
+  line-height: 25px;
+}
+
+.page_productPresell .mod_text .modTextContent {
+  padding: 0 60px 55px;
+}
+
+.page_productPresell .mod_attention,
+.page_productPresell .mod_afterBought {
+  border: 1px solid #dfdfdf;
+}
+
+.page_productPresell .mod_attention {
+  border-bottom: none;
+  margin-top: 90px;
+}
+
+/*.page_productPresell .ftLogo {
+  background: url(../img/presellProductBottomLogo.png);
+  width: 211px;
+  height: 35px;
+  display: block;
+  text-indent: -9999px;
+  margin: 90px auto 40px;
+}
+*/
+.page_productPresell .media {
+  line-height: 22px;
+  text-align: center;
+  margin-left: -30px;
+}
+
+/*.page_productPresell .mediaIcon {
+  background: url(../img/presellSprite.png);
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 5px;
+}*/
+
+.page_productPresell .mediaIcon_mail {
+  background-position: 0 -44px;
+}
+
+.page_productPresell .mediaIcon_tw {
+  background-position: 0 -22px;
+}
+
+.page_productPresell .cpRight {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 25px;
+  padding-bottom: 120px;
+}

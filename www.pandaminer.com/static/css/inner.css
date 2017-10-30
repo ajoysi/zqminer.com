@@ -1,0 +1,2811 @@
+.page_productList .f_bd {
+	background-color: #FFF
+}
+
+.page_productList .mod_productList {
+	border: 1px solid #e5e5e5;
+	border-bottom: none
+}
+
+.page_productList .mod_productList .productItem {
+	border-bottom: 1px solid #e5e5e5;
+	min-height: 150px;
+	position: relative;
+	padding-left: 250px;
+	padding-top: 90px
+}
+
+.page_productList .mod_productList .productItem .productImg {
+	position: absolute;
+	left: 40px;
+	top: 30px;
+	width: 180px;
+	height: 180px
+}
+
+.page_productList .mod_productList .productItem .productInfo {
+	width: 480px
+}
+
+.page_productList .mod_productList .productItem .productName {
+	font-size: 26px;
+	color: #333;
+	margin-bottom: 10px
+}
+
+.page_productList .mod_productList .productItem .productName .tagHot,.page_productList .mod_productList .productItem .productName .tagPresell,.page_productList .mod_productList .productItem .productName .tagPresellEnd {
+	padding: 0 12px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px
+}
+
+.page_productList .mod_productList .productItem .productName .tagHot {
+	background-color: #ff7611
+}
+
+.page_productList .mod_productList .productItem .productName .tagPresellEnd {
+	background-color: #97989b
+}
+
+.page_productList .mod_productList .productItem .productName .tagPresell {
+	background-color: #2c92f0
+}
+
+.page_productList .mod_productList .productItem .productParams {
+	color: #666
+}
+
+.page_productList .mod_productList .productItem .productParams .param {
+	margin-right: 15px
+}
+
+.page_productList .mod_productList .productItem .price {
+	text-align: right;
+	position: absolute;
+	top: 90px;
+	right: 230px
+}
+
+.page_productList .mod_productList .productItem .price .normalPrice {
+	font-size: 26px
+}
+
+.page_productList .mod_productList .productItem .price .BTCPrice {
+	font-size: 14px;
+	color: #999
+}
+
+.page_productList .mod_productList .productItem .btnBuy {
+	position: absolute;
+	right: 30px;
+	top: 95px;
+	width: 160px
+}
+
+.page_productDetail .f_bd {
+	background-color: #FFF
+}
+
+.page_productDetail .productSummary {
+	overflow: hidden;
+	padding-bottom: 50px
+}
+
+.page_productDetail .productGallery {
+	width: 480px;
+	font-size: 0;
+	float: left
+}
+
+.page_productDetail .productGallery img {
+	display: block
+}
+
+.page_productDetail .productGallery .enlargedImg {
+	display: block;
+	border: 1px solid #dfdfdf
+}
+
+.page_productDetail .productGallery .enlargedImg img {
+	width: 478px;
+	height: 478px
+}
+
+.page_productDetail .productGallery .thumbnailImgList {
+	position: relative;
+	width: 490px;
+	overflow: hidden
+}
+
+.page_productDetail .productGallery .thumbnailImg {
+	width: 88px;
+	height: 88px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px
+}
+
+.page_productDetail .productGallery .thumbnailImg a {
+	border: 1px solid #dfdfdf;
+	display: block
+}
+
+.page_productDetail .productGallery .thumbnailImg img {
+	width: 86px;
+	height: 86px
+}
+
+.page_productDetail .productGallery .thumbnailImg_current a {
+	border: 2px solid #FF0000
+}
+
+.page_productDetail .productGallery .thumbnailImg_current img {
+	width: 84px;
+	height: 84px
+}
+
+.page_productDetail .productInfo {
+	float: right;
+	width: 570px
+}
+
+.page_productDetail .productInfo .productName {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 10px
+}
+
+.page_productDetail .productInfo .productName .tagHot,.page_productDetail .productInfo .productName .tagPresell,.page_productDetail .productInfo .productName .tagPresellEnd {
+	padding: 0 12px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.page_productDetail .productInfo .productName .tagHot {
+	background-color: #ff7611
+}
+
+.page_productDetail .productInfo .productName .tagPresellEnd {
+	background-color: #97989b
+}
+
+.page_productDetail .productInfo .productName .tagPresell {
+	background-color: #2c92f0
+}
+
+.page_productDetail .productInfo .productIntro {
+	font-size: 16px;
+	color: #666;
+	margin-top: 15px
+}
+
+.page_productDetail .productInfo .priceBox {
+	background-color: #f1f1f3;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 10px;
+	margin: 30px 0 40px
+}
+
+.page_productDetail .productInfo .priceBox span {
+	display: inline-block;
+	vertical-align: top
+}
+
+.page_productDetail .productInfo .priceBox .normalPrice {
+	font-size: 26px
+}
+
+.page_productDetail .productInfo .priceBox .BTCPrice {
+	font-size: 14px;
+	color: #999
+}
+
+.page_productDetail .productInfo .presell_priceBox {
+	margin: 30px 0 40px
+}
+
+.page_productDetail .productInfo .presell_priceBox .priceTotal,.page_productDetail .productInfo .presell_priceBox .priceBooking {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 10px;
+	font-size: 16px
+}
+
+.page_productDetail .productInfo .presell_priceBox .priceTotal span,.page_productDetail .productInfo .presell_priceBox .priceBooking span {
+	display: inline-block;
+	vertical-align: top
+}
+
+.page_productDetail .productInfo .presell_priceBox .priceTotal .BTCPrice,.page_productDetail .productInfo .presell_priceBox .priceBooking .BTCPrice {
+	font-size: 14px;
+	color: #999
+}
+
+.page_productDetail .productInfo .presell_priceBox .priceTotal {
+	background-color: #f1f1f3
+}
+
+.page_productDetail .productInfo .presell_priceBox .priceBooking {
+	background-color: #e9e9e9
+}
+
+.page_productDetail .productInfo .presell_priceBox .priceBooking .normalPrice {
+	font-size: 26px
+}
+
+.page_productDetail .productInfo .paramItem {
+	margin-bottom: 30px
+}
+
+.page_productDetail .productInfo .paramTitle {
+	display: inline-block;
+	width: 90px;
+	line-height: 40px;
+	vertical-align: top
+}
+
+.page_productDetail .productInfo .paramValue {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0
+}
+
+.page_productDetail .productInfo .paramValue .m_selectItem {
+	margin-right: 10px
+}
+
+.page_productDetail .productInfo .btnBuy {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px
+}
+
+.page_productDetail .productInfo .sellByTel strong {
+	font-size: 28px;
+	color: #FF0000;
+	font-weight: normal
+}
+
+.page_productDetail .productDescription {
+	padding-top: 25px
+}
+
+.page_order .orderMod_normalMsg p+p {
+	margin-top: 5px
+}
+
+.page_order .orderMod_normalMsg p .b_btn {
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	margin-left: 5px
+}
+
+.page_order .orderMod_normalMsg em {
+	color: #FF0000
+}
+
+.page_order .orderMod_address .addressSelector .existedAddress .addressItem {
+	margin-bottom: 20px
+}
+
+.page_order .orderMod_address .addressSelector .existedAddress .addressItem input {
+	margin-right: 10px;
+	display: inline-block
+}
+
+.page_order .orderMod_address .addAddrBtn {
+	height: 28px;
+	line-height: 28px;
+	padding: 0 15px;
+	margin-left: 25px;
+	border: 1px solid #ccc;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	border-radius: 4px;
+	color: #333
+}
+
+.page_order .orderMod_address .addressSelector+.addAdressBox {
+	border-top: 1px solid #e5e5e5;
+	margin-top: 20px;
+	padding-top: 20px
+}
+
+.page_order .orderMod_address .inputBox_areaCode {
+	width: 100px;
+	margin-right: 10px
+}
+
+.page_order .orderMod_address .inputBox_tel {
+	width: 190px
+}
+
+.page_order .orderMod_address .inputWrap_location {
+	height: 90px
+}
+
+.page_order .orderMod_address .inputWrap_location .m_inputBoxSelect {
+	width: 160px;
+	margin-right: 10px
+}
+
+.page_order .orderMod_address .inputBox_detailAddr {
+	width: 840px;
+	margin-left: 90px;
+	margin-top: 10px
+}
+
+.page_order .orderMod_address .inputBox_zipCode {
+	width: 200px
+}
+
+.page_order .orderMod_address .submitBtns {
+	padding-left: 90px;
+	margin-top: 20px
+}
+
+.page_order .orderMod_address .submitBtns .b_btn {
+	width: 160px;
+	margin-right: 10px
+}
+
+.page_order .orderMod_ensureOrder .m_sectionBoxMod_bd {
+	padding: 0
+}
+
+.page_order .orderMod_ensureOrder .orderDataList {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.page_order .orderMod_ensureOrder .orderDataList .orderData {
+	float: right;
+	width: 180px;
+	text-align: center
+}
+
+.page_order .orderMod_ensureOrder .orderItem {
+	position: relative;
+	padding: 20px;
+	min-height: 120px
+}
+
+.page_order .orderMod_ensureOrder .orderItem .productInfo {
+	width: 440px;
+	padding-left: 140px;
+	position: relative;
+	padding-top: 35px
+}
+
+.page_order .orderMod_ensureOrder .orderItem .productInfo .productImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #ccc;
+	width: 120px;
+	height: 120px
+}
+
+.page_order .orderMod_ensureOrder .orderItem .productInfo .cornerSpare {
+	background-color: #52bbd1;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.page_order .orderMod_ensureOrder .orderItem .productInfo .productTitle {
+	font-size: 20px;
+	margin-bottom: 8px;
+	color: #333
+}
+
+.page_order .orderMod_ensureOrder .orderItem .productInfo .productType {
+	color: #666
+}
+
+.page_order .orderMod_ensureOrder .orderItem .orderData {
+	padding-top: 65px
+}
+
+.page_order .orderMod_ensureOrder .orderTotal {
+	background-color: #f9f9fa;
+	padding: 20px;
+	overflow: hidden
+}
+
+.page_order .orderMod_ensureOrder .orderTotal .customerNoteBox {
+	float: left
+}
+
+.page_order .orderMod_ensureOrder .orderTotal .customerNoteBox .noteTitle {
+	margin-bottom: 10px
+}
+
+.page_order .orderMod_ensureOrder .orderTotal .totalBox {
+	float: right;
+	width: 300px;
+	text-align: right
+}
+
+.page_order .orderMod_ensureOrder .orderTotal .totalBox .normalPrice {
+	font-size: 16px
+}
+
+.page_order .orderMod_ensureOrder .orderTotal .totalBox .normalPrice .totalTitle {
+	font-size: 14px;
+	margin-right: 40px
+}
+
+.page_order .orderMod_ensureOrder .orderTotal .totalBox .BTCPrice {
+	color: #999
+}
+
+.page_order .orderMod_payment .i_paymentUnionPay {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 37px;
+	height: 30px;
+	background-position: 0 -158px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_order .orderMod_payment .i_paymentBTC {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 30px;
+	height: 30px;
+	background-position: 0 -128px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_order .orderMod_payment .paymentList {
+	overflow: hidden
+}
+
+.page_order .orderMod_payment .paymentList .paymentItem {
+	width: 148px;
+	height: 38px;
+	border: 1px solid #ccc;
+	float: left;
+	border-radius: 4px;
+	margin-right: 20px
+}
+
+.page_order .orderMod_payment .paymentList .paymentItem .paymentItemLink {
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #666
+}
+
+.page_order .orderMod_payment .paymentList .paymentItem .paymentItemLink .paymentIcon {
+	vertical-align: middle;
+	margin-right: 10px
+}
+
+.page_order .orderMod_payment .paymentList .paymentItem_current {
+	border-color: #FF0000
+}
+
+.page_order .orderMod_payment .paymentFinishedTable {
+	width: 100%
+}
+
+.page_order .orderMod_payment .paymentFinishedTable .checkPaymentDetail {
+	margin-left: 10px
+}
+
+.page_order .orderMod_payment .paymentFinishedTable tr {
+	height: 22px
+}
+
+.page_order .orderMod_payment .paymentFinishedTable .titleRow {
+	font-size: 12px
+}
+
+.page_order .orderMod_coupon .useCouponItem {
+	margin-bottom: 20px
+}
+
+.page_order .orderMod_coupon .couponRadio {
+	margin-right: 10px
+}
+
+.page_order .orderMod_coupon .couponSelector,.page_order .orderMod_coupon .couponCode {
+	width: 200px;
+	display: inline-block;
+	margin-left: 10px
+}
+
+.page_order .orderMod_coupon .i_success_s {
+	display: inline-block;
+	margin-left: 10px
+}
+
+.page_order .orderMod_subtotal .m_sectionBoxMod_bd {
+	overflow: hidden
+}
+
+.page_order .orderMod_subtotal .orderSubTotalBox {
+	float: right
+}
+
+.page_order .orderMod_subtotal .orderSubtotal {
+	font-size: 0
+}
+
+.page_order .orderMod_subtotal .orderSubtotal span {
+	font-size: 14px
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItem {
+	margin-bottom: 15px
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItemTitle {
+	width: 90px;
+	color: #666;
+	display: inline-block
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItemValue {
+	width: 160px;
+	display: inline-block;
+	text-align: right
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItem_total {
+	margin-bottom: 0;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItem_total .subtotalItemValue {
+	color: #333;
+	font-size: 16px
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItem_totalBTC .subtotalItemValue {
+	color: #999
+}
+
+.page_order .orderMod_subtotal .orderSubtotal .subtotalItem_total_presellFinal {
+	border-top: none
+}
+
+.page_order .orderMod_subtotal .btns {
+	text-align: right
+}
+
+.page_order .orderMod_subtotal .btns .btnPay {
+	width: 160px
+}
+
+.page_order .paymentInfoBox table tr {
+	height: 38px
+}
+
+.page_order .paymentInfoBox table td {
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	position: relative
+}
+
+.page_order .BTCPay {
+	position: relative;
+	height: 180px;
+	padding-left: 200px
+}
+
+.page_order .BTCPay .BTC_QRcode {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	width: 170px;
+	height: 170px
+}
+
+.page_order .BTCPay .inputBTCAddr {
+	position: absolute;
+	left: 200px;
+	bottom: 0
+}
+
+.page_order .BTCPay .inputBTCAddr .m_inputBox {
+	width: 400px;
+	display: inline-block
+}
+
+.page_order .BTCPay .inputBTCAddr .btnCopy {
+	width: 100px;
+	margin-left: 8px
+}
+
+.page_order .bankingPay {
+	position: relative
+}
+
+.page_order .bankingPay .bankingTable {
+	text-align: left;
+	border: 1px solid #ccc
+}
+
+.page_order .bankingPay .bankingTable .tableTitle {
+	width: 110px
+}
+
+.page_order .bankingPay .bankingTable .tableValue {
+	width: 280px
+}
+
+.page_order .bankingPay .bankingTable .priceValue {
+	color: #ff5353
+}
+
+.page_order .bankingPay .transferTips,.page_order .bankingPay .bankingTips {
+	position: absolute;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	background-color: #ffeecc;
+	position: absolute;
+	left: 440px;
+	bottom: 5px;
+	padding: 0 10px
+}
+
+.page_order .bankingPay .transferTips {
+	bottom: 43px
+}
+
+.page_order .orderDetail .orderDetailTable {
+	width: 730px
+}
+
+.page_order .orderDetail .orderDetailTable .tableTitle {
+	width: 110px
+}
+
+.page_order .orderDetail .orderDetailTable .tableValue {
+	width: 620px
+}
+
+.page_order .orderProgressBox {
+	height: 85px;
+	position: relative
+}
+
+.page_order .orderProgressBox .orderProgressBar {
+	background-color: #fff;
+	height: 30px;
+	border-radius: 15px;
+	overflow: hidden
+}
+
+.page_order .orderProgressBox .orderProgressBar .orderProgress {
+	background-color: #FF0000;
+	height: 30px
+}
+
+.page_order .orderProgressBox .orderProgressSteps {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%
+}
+
+.page_order .orderProgressBox .orderProgressSteps .orderStepItem {
+	width: 25%;
+	float: left;
+	text-align: center
+}
+
+.page_order .orderProgressBox .orderProgressSteps .orderStepName {
+	color: #999;
+	line-height: 30px;
+	margin-bottom: 8px
+}
+
+.page_order .orderProgressBox .orderProgressSteps .orderStepTime {
+	color: #333
+}
+
+.page_order .orderProgressBox .orderProgressSteps .orderStepItem_finished .orderStepName {
+	color: #fff
+}
+
+.page_order .orderProgressBox_presell .orderProgressSteps .orderStepItem {
+	width: 16%
+}
+
+.page_order .orderProgressBox_presell .orderProgressSteps .orderStepItem:last-child {
+	width: 20%
+}
+
+.page_order_submitted .f_bd .f_wrapper {
+	padding-top: 40px
+}
+
+.page_order_submitted .submittedResultBox {
+	position: relative;
+	padding-left: 70px;
+	padding-top: 16px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px
+}
+
+.page_order_submitted .submittedResultBox .submittedResultTitle {
+	font-size: 26px;
+	margin-bottom: 20px
+}
+
+.page_order_submitted .submittedResultBox .submittedResultTitle .warning {
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	padding: 0 8px;
+	background-color: #f1f1f3;
+	color: #333;
+	margin-left: 15px;
+	display: inline-block
+}
+
+.page_order_submitted .submittedResultBox .submittedResultInfo .counting {
+	color: #FF0000
+}
+
+.page_order_submitted .submittedResultBox .submittedResultInfo p {
+	margin-bottom: 10px
+}
+
+.page_order_submitted .submittedResultBox .i_success {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.page_order_submitted .paymentInfoBox {
+	padding: 25px 0 0 60px
+}
+
+.page_order_submitted .paymentInfoBox .tipsTitle {
+	margin-bottom: 15px;
+	font-size: 20px
+}
+
+.page_order_submitted .paymentInfoBox .btnCheckOrder {
+	margin-top: 30px;
+	width: 160px
+}
+
+.page_my .f_bd {
+	background-color: #FFF
+}
+
+.page_my .f_bd .m_pageTitle .accountInfo {
+	font-size: 16px
+}
+
+.page_my .f_bd .f_wrapper {
+	padding-top: 40px
+}
+
+.page_my .f_bd .bd_main {
+	overflow: hidden
+}
+
+.page_my .f_bd .bd_sideBar {
+	width: 178px;
+	border: 1px solid #e5e5e5;
+	float: left
+}
+
+.page_my .f_bd .bd_sideBar .userName {
+	padding: 30px 0;
+	text-align: center;
+	font-size: 20px
+}
+
+.page_my .f_bd .bd_sideBar .separator {
+	width: 60px;
+	margin: 0 auto;
+	height: 1px;
+	background-color: #e5e5e5;
+	display: block
+}
+
+.page_my .f_bd .bd_sideBar .sideBarMenu {
+	padding-top: 30px
+}
+
+.page_my .f_bd .bd_sideBar .sideBarMenu .menuItem {
+	margin-bottom: 25px;
+	text-align: center
+}
+
+.page_my .f_bd .bd_sideBar .sideBarMenu .menuItem a {
+	color: #333
+}
+
+.page_my .f_bd .bd_sideBar .sideBarMenu .menuItem_current a {
+	color: #FF0000
+}
+
+.page_my .f_bd .bd_content {
+	float: left;
+	margin-left: 40px;
+	width: 878px
+}
+
+.page_my .f_bd .bd_content .m_pageTitle {
+	padding: 0 0 20px 0
+}
+
+.page_my .f_bd .bd_content .m_sectionBoxMod {
+	border-color: #e5e5e5
+}
+
+.page_myAcccount .i_pwd {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 30px;
+	height: 30px;
+	background-position: 0 -188px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_myAcccount .i_mail {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 30px;
+	height: 30px;
+	background-position: 0 -52px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_myAcccount .i_moneyPwd {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 30px;
+	height: 30px;
+	background-position: 0 -82px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_myAcccount .i_google {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 30px;
+	height: 30px;
+	background-position: 0 -22px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_myAcccount .i_tel {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 30px;
+	height: 30px;
+	background-position: 0 -238px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.page_myAcccount .mod_safeSetting .m_sectionBoxMod_bd {
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingItem {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	position: relative
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingItem:last-child {
+	border: none
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingTitle,.page_myAcccount .mod_safeSetting .safeSettingInfo,.page_myAcccount .mod_safeSetting .safeSettingState {
+	float: left;
+	line-height: 30px
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingTitle {
+	padding-left: 10px;
+	width: 180px
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingTitle .icon_safe {
+	margin-right: 5px
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingInfo {
+	width: 360px
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingState {
+	color: #FF0000
+}
+
+.page_myAcccount .mod_safeSetting .safeSettingState_unset {
+	color: #f59211
+}
+
+.page_myAcccount .mod_safeSetting .b_btn {
+	width: 120px;
+	position: absolute;
+	right: 0;
+	top: 30px
+}
+
+.pop_googleAuth {
+	width: 600px
+}
+
+.pop_googleAuth .p_popContent {
+	width: 540px
+}
+
+.pop_googleAuth .authSteps .stepTitle {
+	font-size: 16px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	font-weight: bold
+}
+
+.pop_googleAuth .authSteps li {
+	border-bottom: 1px solid #ccc;
+	position: relative
+}
+
+.pop_googleAuth .authSteps .authStep_1 {
+	height: 70px
+}
+
+.pop_googleAuth .authSteps .authStep_1 .btnDownload {
+	position: absolute;
+	top: 10px;
+	width: 160px
+}
+
+.pop_googleAuth .authSteps .authStep_1 .btn_downAndroid {
+	left: 105px;
+	border: 1px solid #FF0000;
+	color: #FF0000
+}
+
+.pop_googleAuth .authSteps .authStep_1 .btn_downiOS {
+	left: 295px;
+	border: 1px solid #4585e4;
+	color: #4585e4
+}
+
+.pop_googleAuth .authSteps .authStep_2 {
+	height: 270px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .tips {
+	font-size: 14px;
+	position: absolute;
+	left: 105px;
+	top: 16px;
+	line-height: 24px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .tips strong {
+	font-weight: bold
+}
+
+.pop_googleAuth .authSteps .authStep_2 .qrcodeTopupTitle {
+	font-size: 14px;
+	position: absolute;
+	left: 105px;
+	top: 110px;
+	width: 118px;
+	text-align: center
+}
+
+.pop_googleAuth .authSteps .authStep_2 .qrcodeImg {
+	position: absolute;
+	left: 105px;
+	top: 140px;
+	width: 108px;
+	height: 108px;
+	background-color: #FFF;
+	padding: 5px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .or {
+	position: absolute;
+	left: 240px;
+	top: 185px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .inputWrap {
+	font-size: 14px;
+	position: absolute;
+	left: 280px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .inputWrap .title {
+	float: left;
+	line-height: 40px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .inputWrap .m_inputBox {
+	width: 188px;
+	float: left
+}
+
+.pop_googleAuth .authSteps .authStep_2 .inputWrap_code {
+	top: 148px
+}
+
+.pop_googleAuth .authSteps .authStep_2 .inputWrap_device {
+	top: 205px
+}
+
+.pop_googleAuth .authSteps .authStep_3 {
+	height: 65px
+}
+
+.pop_googleAuth .authSteps .authStep_3 .inputWrap_authCode {
+	font-size: 14px;
+	position: absolute;
+	left: 105px;
+	top: 13px
+}
+
+.pop_googleAuth .authSteps .authStep_3 .inputWrap_authCode .title {
+	float: left;
+	line-height: 40px
+}
+
+.pop_googleAuth .authSteps .authStep_3 .inputWrap_authCode .m_inputBox {
+	width: 202px;
+	float: left
+}
+
+.pop_googleAuth .authSteps .autoStep_4 {
+	height: 65px
+}
+
+.pop_googleAuth .authSteps .autoStep_4 .inputWrapSMSCode {
+	overflow: hidden;
+	font-size: 14px;
+	position: absolute;
+	left: 105px;
+	top: 13px
+}
+
+.pop_googleAuth .authSteps .autoStep_4 .inputWrapSMSCode .title {
+	float: left;
+	line-height: 40px
+}
+
+.pop_googleAuth .authSteps .autoStep_4 .inputWrapSMSCode .m_inputBox {
+	width: 158px;
+	float: left
+}
+
+.pop_googleAuth .authSteps .autoStep_4 .inputWrapSMSCode .btnSend {
+	float: left;
+	margin-left: 10px
+}
+
+.pop_googleAuth .btn_box {
+	margin-top: 15px;
+	position: relative
+}
+
+.pop_googleAuth .btn_box .skip {
+	font-size: 14px;
+	color: #999;
+	text-decoration: underline;
+	position: absolute;
+	line-height: 50px;
+	left: 140px;
+	top: 0
+}
+
+.pop_googleAuth .btn_box .btn_next {
+	display: block;
+	margin: 0 auto;
+	width: 160px
+}
+
+.pop_changeTel .p_popContent {
+	width: 370px
+}
+
+.pop_changeTel .p_popContent .m_inputTitle {
+	width: 100px
+}
+
+.pop_changeTel .p_popContent .m_inputBox {
+	width: 250px
+}
+
+.pop_changeTel .p_popContent .m_inputWrap_sms .m_inputBox {
+	width: 120px
+}
+
+.page_myCoupon .mod_coupon .couponTable {
+	border: 1px solid #e5e5e5;
+	width: 100%
+}
+
+.page_myCoupon .mod_coupon .couponTable tr {
+	height: 50px;
+	border-bottom: 1px solid #ccc
+}
+
+.page_myCoupon .mod_coupon .couponTable .titleRow {
+	background-color: #f9f9fa;
+	border: none
+}
+
+.page_myCoupon .mod_coupon .couponTable td {
+	padding-left: 40px
+}
+
+.page_myCoupon .mod_coupon .couponTable .state_disable {
+	color: #999
+}
+
+.page_myOrderList .mod_orderListBox .orderData {
+	float: left;
+	width: 90px;
+	text-align: center
+}
+
+.page_myOrderList .mod_orderListBox .orderDataSnapShot {
+	width: 380px;
+	text-align: left
+}
+
+.page_myOrderList .mod_orderListBox .orderListItem .m_sectionBoxMod_hd {
+	font-size: 12px
+}
+
+.page_myOrderList .mod_orderListBox .orderListItem .m_sectionBoxMod_bd {
+	padding: 0
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderItem {
+	height: 120px;
+	padding: 20px;
+	position: relative
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .cornerSpare {
+	background-color: #52bbd1;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderItem+.orderItem {
+	border-top: 1px solid #ccc
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderItem_presellSteps {
+	height: 40px;
+	padding: 0 20px
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderItem_presellSteps .orderDataSnapShot {
+	width: 380px;
+	padding: 0
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderItem_presellSteps .orderData {
+	padding-top: 0;
+	line-height: 40px
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderData {
+	padding-top: 45px;
+	line-height: 30px
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderData .b_btn {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	vertical-align: middle;
+	display: inline-block
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderDataSnapShot {
+	position: relative;
+	width: 240px;
+	padding-left: 140px;
+	position: relative;
+	padding-top: 35px
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderDataSnapShot .productImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #ccc;
+	width: 120px;
+	height: 120px
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderDataSnapShot .productTitle {
+	font-size: 20px;
+	color: #333
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderDataSnapShot .productType {
+	color: #666
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderData_operate {
+	font-size: 14px
+}
+
+.page_myOrderList .mod_orderListBox .orderItemList .orderData_operate a {
+	display: block
+}
+
+.page_myAddress .addAdressBox .inputBox_areaCode {
+	width: 100px;
+	margin-right: 10px
+}
+
+.page_myAddress .addAdressBox .inputBox_tel {
+	width: 190px
+}
+
+.page_myAddress .addAdressBox .inputWrap_location {
+	height: 140px
+}
+
+.page_myAddress .addAdressBox .inputWrap_location .m_inputBox {
+	margin-bottom: 10px
+}
+
+.page_myAddress .addAdressBox .inputWrap_location .inputBox_lineBreak {
+	clear: left;
+	margin-left: 90px
+}
+
+.page_myAddress .addAdressBox .inputWrap_location .m_inputBoxSelect {
+	width: 160px;
+	margin-right: 10px
+}
+
+.page_myAddress .addAdressBox .inputBox_detailAddr {
+	width: 700px;
+	margin-left: 90px
+}
+
+.page_myAddress .addAdressBox .inputBox_zipCode {
+	width: 200px
+}
+
+.page_myAddress .addAdressBox .operationBtns {
+	padding-left: 90px;
+	margin-top: 20px
+}
+
+.page_myAddress .addAdressBox .operationBtns .setAsDefault input {
+	margin-right: 6px
+}
+
+.page_myAddress .addAdressBox .operationBtns .btnSave {
+	width: 160px;
+	margin-top: 20px
+}
+
+.page_myAddress .addressList {
+	width: 100%;
+	font-size: 12px
+}
+
+.page_myAddress .addressList tr {
+	height: 35px
+}
+
+.page_myAddress .addressList .titleRow {
+	line-height: 20px;
+	height: 20px
+}
+
+.page_myAddress .addressList .extraBtns {
+	width: 80px
+}
+
+.page_myAddress .addressList td:nth-child(1) {
+	width: 100px
+}
+
+.page_myAddress .addressList td:nth-child(2) {
+	width: 410px
+}
+
+.page_myAddress .addressList td:nth-child(3) {
+	width: 60px
+}
+
+.page_myAddress .addressList td:nth-child(4) {
+	width: 90px
+}
+
+.page_myAddress .addressList td:nth-child(4) {
+	width: 90px
+}
+
+.page_myAddress .addressList .b_btn {
+	font-size: 12px;
+	height: 28px;
+	line-height: 28px;
+	width: 78px
+}
+
+.page_myAddress .addressList .b_btnDisable {
+	color: #333
+}
+
+.page_myMoney .mod_moneyManage {
+	padding: 10px 0 35px;
+	border-bottom: 1px solid #e7e7e7;
+	position: relative
+}
+
+.page_myMoney .mod_moneyManage:last-child {
+	padding-bottom: 5px;
+	border-bottom: none
+}
+
+.page_myMoney .mod_moneyManage .moneyManageTitle {
+	font-size: 16px
+}
+
+.page_myMoney .mod_moneyManage .moneyManageContent {
+	padding: 15px 10px 0;
+	position: relative
+}
+
+.page_myMoney .mod_moneyManage .link_history {
+	position: absolute;
+	right: 0;
+	top: 10px
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp {
+	height: 165px
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp .codeScanTips {
+	width: 140px;
+	text-align: center
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp .qrCodeImg {
+	position: absolute;
+	left: 10px;
+	top: 45px;
+	padding: 2px;
+	border: 1px solid #e7e7e7;
+	background-color: #FFF
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp .or {
+	position: absolute;
+	left: 175px;
+	top: 108px
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp .m_inputWrap {
+	position: absolute;
+	left: 210px;
+	top: 73px;
+	width: 400px
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp .m_inputWrap .m_inputBox {
+	width: 400px
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_btcTopUp .btnCopy {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	margin: 10px auto 0;
+	font-size: 14px
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_withdraw .balance strong {
+	font-size: 24px;
+	font-weight: normal
+}
+
+.page_myMoney .mod_moneyManage .moneyManage_withdraw .balance .btnWithdraw {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 50px;
+	vertical-align: bottom;
+	font-size: 14px
+}
+
+.page_about .f_bd .f_wrapper {
+	padding-top: 100px
+}
+
+.page_about .logo {
+	width: 268px;
+	height: 176px;
+	background-image: url("../img/aboutLogo.png"/*tpa=https://www.pandaminer.com/static/img/aboutLogo.png*/);
+	display: block;
+	text-indent: -9999px;
+	margin: 0 auto 80px
+}
+
+.page_about .aboutContent {
+	line-height: 28px;
+	width: 800px;
+	margin: 0 auto
+}
+
+.page_about .aboutContent p {
+	margin-bottom: 35px
+}
+
+.page_about .aboutContent .contact p {
+	margin-bottom: 0
+}
+
+.page_about .aboutContent .contact em {
+	color: #FF0000
+}
+
+.p_popTransferHistory {
+	width: 780px;
+	height: 480px
+}
+
+.p_popTransferHistory .p_popContent {
+	width: 740px
+}
+
+.p_popTransferHistory .tradeHistoryTable {
+	width: 100%;
+	border: 1px solid #e5e5e5
+}
+
+.p_popTransferHistory .tradeHistoryTable .titleRow {
+	background-color: #f9f9fa;
+	border-bottom: none
+}
+
+.p_popTransferHistory .tradeHistoryTable td {
+	padding: 0 20px
+}
+
+.p_popTransferHistory .tradeHistoryTable tr {
+	height: 50px;
+	border-bottom: 1px solid #e5e5e5
+}
+
+.p_popTransferHistory .tradeHistoryTable .transAddress,.p_popTransferHistory .tradeHistoryTable .dateUpdated {
+	font-size: 12px
+}
+
+.p_popWithdraw {
+	width: 500px
+}
+
+.p_popWithdraw .p_popContent {
+	width: 400px
+}
+
+.p_popWithdraw .balanceValue {
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 40px
+}
+
+.p_popWithdraw .m_inputTitle {
+	width: 100px
+}
+
+.p_popWithdraw .m_inputWrap_sms .m_inputBox {
+	width: 150px
+}
+
+.p_popWithdraw .m_inputWrap_sms .btnSendSMS {
+	width: 140px;
+	margin: 0 0 0 10px
+}
+
+.p_popWithdraw .switchAuth {
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+	padding-top: 8px;
+	clear: both
+}
+
+.page_commonTextPage .f_bd h3 {
+	font-size: 18px;
+	margin-bottom: 25px;
+	padding-top: 15px
+}
+
+.page_commonTextPage .f_bd p {
+	line-height: 24px;
+	margin-bottom: 20px
+}
+
+.page_distribute .f_bd .f_wrapper {
+	padding-top: 40px
+}
+
+.page_distribute .mod_distribute {
+	border: 1px solid #e5e5e5;
+	background-color: #FFF
+}
+
+.page_distribute .mod_distribute .modHd {
+	height: 370px;
+	background-image: url("../img/distributeHd.jpg"/*tpa=https://www.pandaminer.com/static/img/distributeHd.jpg*/);
+	margin-bottom: 40px
+}
+
+.page_distribute .mod_distribute .modHd h2 {
+	display: none
+}
+
+.page_distribute .mod_distribute .modHd .distributionWanted {
+	text-align: center;
+	padding-top: 120px;
+	font-size: 24px;
+	margin-bottom: 50px
+}
+
+.page_distribute .mod_distribute .modHd .distributionWanted strong {
+	display: block;
+	font-size: 32px;
+	margin-top: 5px
+}
+
+.page_distribute .mod_distribute .modHd .featureBox {
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.page_distribute .mod_distribute .modHd .featureBox .featureItem {
+	width: 380px;
+	float: left;
+	padding-left: 60px;
+	padding-right: 60px
+}
+
+.page_distribute .mod_distribute .modHd .featureBox .featureTitle {
+	font-size: 20px;
+	margin-bottom: 10px
+}
+
+.page_distribute .mod_distribute .modHd .featureBox .featureInfo {
+	font-size: 16px;
+	line-height: 20px
+}
+
+.page_distribute .mod_distribute .infoBox {
+	text-align: center;
+	margin-bottom: 35px
+}
+
+.page_distribute .mod_distribute .infoBox .infoTitle {
+	font-size: 22px;
+	margin-bottom: 15px
+}
+
+.page_distribute .mod_distribute .infoBox .infoText {
+	font-size: 16px
+}
+
+.page_distribute .mod_distribute .infoBox_requirement .sep {
+	margin: 0 10px
+}
+
+.page_distribute .mod_distribute .infoBox_contact {
+	width: 700px;
+	margin: 0 auto 35px;
+	padding: 18px 0;
+	background-color: #f1f1f3
+}
+
+.page_distribute .mod_distribute .infoBox_contact .infoText {
+	font-size: 20px
+}
+
+.page_distribute .mod_distribute .infoBox_contact .infoText .sep {
+	margin: 0 18px
+}
+
+.page_distribute .mod_distribute .infoBox_routine .sep {
+	margin: 0 10px
+}
+
+.page_distribute .mod_distribute .infoBox_downloadForm .i_form {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 18px;
+	height: 22px;
+	background-position: 0 0;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px;
+	margin-right: 10px
+}
+
+.page_distribute .mod_distribute .infoBox_downloadForm .btnDownloadForm {
+	padding: 0 30px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 15px
+}
+
+.page_distribute .mod_distribute .infoBox_slogan {
+	padding: 45px 0;
+	margin: 0;
+	border-top: 1px solid #e5e5e5
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .distributeTips {
+	margin-top: 40px
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .distributeItem {
+	margin: 20px auto 0;
+	width: 700px;
+	background-color: #f1f1f3;
+	padding: 15px 0
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .distributeItem p {
+	margin-top: 8px
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .distributeItem p span {
+	margin: 0 15px
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .distributeItem .location {
+	font-weight: bold;
+	font-size: 20px
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .distributeItem .contact {
+	font-size: 16px
+}
+
+.page_distribute .mod_distribute .infoBox_slogan .buyNotice {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 50px
+}
+
+.page_configInstruction .sectionTitle {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 15px
+}
+
+.page_configInstruction .deviceReviewBanner {
+	height: 180px;
+	background-size: cover;
+	background-image: url("../img/deviceReviewBanner_cn.jpg"/*tpa=https://www.pandaminer.com/static/img/deviceReviewBanner_cn.jpg*/);
+	text-indent: -9999px;
+	display: block;
+	margin-bottom: 45px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.page_configInstruction .deviceReviewBanner {
+		background-image: url("../img/deviceReviewBanner_cn_hd.jpg"/*tpa=https://www.pandaminer.com/static/img/deviceReviewBanner_cn_hd.jpg*/)
+	}
+}
+
+.page_configInstruction .mod_softwareDownload {
+	padding: 40px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 40px
+}
+
+.page_configInstruction .mod_softwareDownload .softwareTable {
+	font-size: 14px;
+	display: block;
+	width: 100%
+}
+
+.page_configInstruction .mod_softwareDownload .softwareTable th {
+	color: #333333;
+	background-color: #f1f1f3
+}
+
+.page_configInstruction .mod_softwareDownload .softwareTable td,.page_configInstruction .mod_softwareDownload .softwareTable th {
+	border: 1px solid #e5e5e5;
+	padding: 15px 20px
+}
+
+.page_configInstruction .mod_softwareDownload .softwareTable td:nth-child(1) {
+	width: 510px
+}
+
+.page_configInstruction .mod_softwareDownload .softwareTable td:nth-child(2) {
+	width: 235px
+}
+
+.page_configInstruction .mod_softwareDownload .softwareTable .b_btn {
+	width: 140px;
+	display: block
+}
+
+.page_configInstruction .mod_configInstruction {
+	border: 1px solid #e5e5e5;
+	background-color: #FFF;
+	padding: 30px 40px;
+	color: #666;
+	line-height: 24px;
+	font-size: 14px
+}
+
+.page_configInstruction .mod_configInstruction strong {
+	color: #333;
+	font-weight: bold
+}
+
+.page_configInstruction .mod_configInstruction .subTitle {
+	margin: 35px 0 15px;
+	font-size: 16px;
+	color: #333
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct {
+	overflow: hidden;
+	padding-bottom: 50px
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct .portsInustructItem {
+	float: left;
+	width: 50%
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct .portsInustructItem .portsLocation {
+	font-size: 18px;
+	text-align: center
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct .portsInustructItem .portsInfo {
+	margin-top: 20px
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct .portsInustructItem_left .portsInfo {
+	padding-left: 150px
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct .portsInustructItem_right .portsInfo {
+	padding-left: 40px;
+	overflow: hidden
+}
+
+.page_configInstruction .mod_configInstruction .portsInstruct .portsInustructItem_right .portsInfo p {
+	float: left;
+	width: 230px
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList {
+	overflow: hidden;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	background-color: #f9f9fa
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList .messageTypeItem {
+	width: 140px;
+	float: left;
+	text-align: center;
+	position: relative
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList .messageTypeItem:after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 19px;
+	top: 17px;
+	right: 0;
+	background-color: #e5e5e5
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList .messageTypeItem a {
+	padding: 0 15px;
+	color: #333;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	position: relative
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList .messageTypeItem .unreadCount {
+	font-size: 12px;
+	color: #fff;
+	height: 16px;
+	line-height: 16px;
+	background-color: #ff8314;
+	border-radius: 2px;
+	display: inline-block;
+	right: -12px;
+	top: 16px;
+	min-width: 24px;
+	position: absolute
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList .messageTypeItem_current a {
+	color: #FF0000
+}
+
+.page_myMessage .mod_message .messageFilter .messageTypeList .messageTypeItem_current a:after {
+	content: '';
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #FF0000
+}
+
+.page_myMessage .mod_message .handlers {
+	text-align: right;
+	color: #5d80b9;
+	height: 38px;
+	line-height: 38px
+}
+
+.page_myMessage .mod_message .messageList {
+	border: 1px solid #e5e5e5;
+	border-bottom: none
+}
+
+.page_myMessage .mod_message .messageList .messageItem {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 20px 25px
+}
+
+.page_myMessage .mod_message .messageList .messageItem .msgDate {
+	color: #999;
+	margin-bottom: 15px
+}
+
+.page_myMessage .mod_message .messageList .messageItem .msgContent {
+	font-size: 16px
+}
+
+.page_christmas .f_bd {
+	background: url("../img/ac/christmas_mod1_cn.png"/*tpa=https://www.pandaminer.com/static/img/ac/christmas_mod1_cn.png*/) 50% 0 no-repeat
+}
+
+.page_christmas .f_bd .f_wrapper {
+	width: 1000px
+}
+
+.page_christmas .infoMod {
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 40px
+}
+
+.page_christmas .infoMod .infoMod_title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px
+}
+
+.page_christmas .infoMod table {
+	width: 100%
+}
+
+.page_christmas .infoMod table tr {
+	height: 34px
+}
+
+.page_christmas .infoMod table tr:nth-child(1) {
+	background-color: #f5f5f5
+}
+
+.page_christmas .infoMod table td {
+	padding: 0 20px;
+	border: 1px solid #ccc
+}
+
+.page_christmas .infoMod table .weak {
+	color: #999
+}
+
+.page_christmas .infoMod p {
+	line-height: 24px
+}
+
+.page_christmas .pageMod1 .f_wrapper {
+	padding-top: 165px;
+	padding-bottom: 60px
+}
+
+.page_christmas .pageMod1:before {
+	height: 16px;
+	position: absolute;
+	content: '';
+	background: url("../img/ac/christmas_sep1.png"/*tpa=https://www.pandaminer.com/static/img/ac/christmas_sep1.png*/) 50% 0 repeat-x;
+	width: 100%;
+	left: 0;
+	top: 0
+}
+
+.page_christmas .pageMod1 .duration {
+	font-size: 18px;
+	text-align: center
+}
+
+.page_christmas .pageMod1 .giftBox {
+	margin-top: 50px;
+	text-align: center
+}
+
+.page_christmas .pageMod1 .giftBox .giftBoxTitle {
+	font-size: 22px;
+	font-weight: bold
+}
+
+.page_christmas .pageMod1 .giftBox .giftBoxTips {
+	font-size: 14px;
+	margin: 10px 0 30px
+}
+
+.page_christmas .pageMod1 .giftBox .giftList {
+	overflow: hidden;
+	padding-left: 12px
+}
+
+.page_christmas .pageMod1 .giftBox .giftList .giftListItem {
+	width: 142px;
+	height: 72px;
+	border: 4px solid #e26565;
+	background-color: #fcf9ec;
+	float: left;
+	line-height: 72px;
+	font-size: 14px;
+	margin-left: 10px
+}
+
+.page_christmas .pageMod1 .giftBox .giftList .giftListItem strong {
+	font-size: 26px
+}
+
+.page_christmas .pageMod1 .giftBox .giftList .giftListItem_plainText {
+	font-size: 20px
+}
+
+.page_christmas .pageMod1 .giftBox .btnGetGift {
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	background-color: #dc3d3d;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	margin: 40px auto 0;
+	display: block
+}
+
+.page_christmas .pageMod2 {
+	position: relative
+}
+
+.page_christmas .pageMod2 .f_wrapper {
+	background: url("../img/ac/christmas_mod2_bt.png"/*tpa=https://www.pandaminer.com/static/img/ac/christmas_mod2_bt.png*/) 0 100% no-repeat
+}
+
+.page_christmas .pageMod2:before {
+	height: 16px;
+	position: absolute;
+	content: '';
+	background: url("../img/ac/christmas_sep2.png"/*tpa=https://www.pandaminer.com/static/img/ac/christmas_sep2.png*/) 50% 0 repeat-x;
+	width: 100%;
+	left: 0;
+	top: 0
+}
+
+.page_christmas .pageMod2 .f_wrapper {
+	padding-top: 80px;
+	padding-bottom: 125px
+}
+
+.page_christmas .pageMod2 .buyBox {
+	text-align: center
+}
+
+.page_christmas .pageMod2 .buyBox .buyBoxTitle {
+	font-size: 22px;
+	font-weight: bold
+}
+
+.page_christmas .pageMod2 .buyBox .buyBoxTips {
+	font-size: 14px;
+	margin: 10px 0
+}
+
+.page_christmas .pageMod2 .buyBox img {
+	display: block;
+	margin: 0 auto
+}
+
+.page_christmas .pageMod2 .buyBox .btnBuy {
+	width: 200px;
+	margin-top: 30px
+}
+
+.page_sharingGoods .btnPrev,.page_sharingGoods .btnNext {
+	background: url("../img/ac/sharingGoods_sprite.png"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoods_sprite.png*/);
+	width: 40px;
+	height: 130px;
+	display: block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 50%;
+	margin-top: -65px
+}
+
+.page_sharingGoods .btnPrev {
+	left: -80px
+}
+
+.page_sharingGoods .btnNext {
+	right: -80px;
+	background-position: -40px 0
+}
+
+.page_sharingGoods .mod_acContent .f_wrapper,.page_sharingGoods .mod_sharingPics .f_wrapper,.page_sharingGoods .mod_sharingVideos .f_wrapper {
+	width: 760px
+}
+
+.page_sharingGoods .acTitleBox {
+	text-align: center
+}
+
+.page_sharingGoods .acTitleBox .acTitle {
+	display: inline-block;
+	padding: 0 20px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 22px;
+	border: 1px solid #ccc
+}
+
+.page_sharingGoods .mod_acContent {
+	background: url("../img/ac/sharingGoodsBd.jpg"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoodsBd.jpg*/) 50% 0 no-repeat
+}
+
+.page_sharingGoods .mod_acContent .f_wrapper {
+	padding: 80px 0
+}
+
+.page_sharingGoods .mod_acContent h2 {
+	font-size: 40px;
+	text-align: center
+}
+
+.page_sharingGoods .mod_acContent .duration {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 350px
+}
+
+.page_sharingGoods .mod_acContent .acTitleBox {
+	margin-top: 90px
+}
+
+.page_sharingGoods .mod_acContent .infoBox {
+	margin-top: 25px
+}
+
+.page_sharingGoods .mod_acContent .infoBox .infoTitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px
+}
+
+.page_sharingGoods .mod_acContent .infoBox .rules p {
+	margin-bottom: 5px
+}
+
+.page_sharingGoods .mod_acContent .giftList .giftItem {
+	margin-bottom: 10px
+}
+
+.page_sharingGoods .mod_acContent .giftItem {
+	width: 730px;
+	height: 125px;
+	padding-left: 30px;
+	padding-top: 65px
+}
+
+.page_sharingGoods .mod_acContent .giftItem .giftTitle {
+	font-size: 24px;
+	color: #000;
+	margin-bottom: 5px
+}
+
+.page_sharingGoods .mod_acContent .giftItem .giftContent {
+	font-size: 14px;
+	color: #333
+}
+
+.page_sharingGoods .mod_acContent .giftItem_100 {
+	background: url("../img/ac/sharingGoodsGift_100.png"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoodsGift_100.png*/)
+}
+
+.page_sharingGoods .mod_acContent .giftItem_150 {
+	background: url("../img/ac/sharingGoodsGift_150.png"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoodsGift_150.png*/)
+}
+
+.page_sharingGoods .mod_acContent .giftItem_200 {
+	background: url("../img/ac/sharingGoodsGift_200.png"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoodsGift_200.png*/)
+}
+
+.page_sharingGoods .mod_acContent .giftItem_shirt {
+	background: url("../img/ac/sharingGoodsGift_t.png"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoodsGift_t.png*/)
+}
+
+.page_sharingGoods .mod_acContent .giftItem_15 {
+	background: url("../img/ac/sharingGoodsGift_15.png"/*tpa=https://www.pandaminer.com/static/img/ac/sharingGoodsGift_15.png*/)
+}
+
+.page_sharingGoods .mod_acContent .wechatLink {
+	position: relative
+}
+
+.page_sharingGoods .mod_acContent .wechatLink img {
+	display: none;
+	position: absolute;
+	right: -160px;
+	top: -160px;
+	width: 150px;
+	height: 150px
+}
+
+.page_sharingGoods .mod_acContent .wechatLink:hover img {
+	display: block
+}
+
+.page_sharingGoods .mod_sharingPics .f_wrapper,.page_sharingGoods .mod_sharingVideos .f_wrapper {
+	padding-top: 60px
+}
+
+.page_sharingGoods .mod_sharingPics .acTitleBox,.page_sharingGoods .mod_sharingVideos .acTitleBox {
+	margin-bottom: 50px
+}
+
+.page_sharingGoods .mod_sharingPics {
+	background-color: #f6f6f6;
+	padding-bottom: 50px
+}
+
+.page_sharingGoods .mod_sharingPics .picListBox {
+	position: relative
+}
+
+.page_sharingGoods .mod_sharingPics .picListWrap {
+	overflow: hidden
+}
+
+.page_sharingGoods .mod_sharingPics .picList {
+	overflow: hidden;
+	width: 810px;
+	margin-left: -35px
+}
+
+.page_sharingGoods .mod_sharingPics .picList .picItem {
+	float: left;
+	width: 230px;
+	margin-left: 35px;
+	margin-bottom: 25px
+}
+
+.page_sharingGoods .mod_sharingPics .picList .picItem img {
+	display: block;
+	cursor: pointer;
+	width: 230px;
+	height: 150px;
+	background-size: cover;
+	background-position: 50% 50%
+}
+
+.page_sharingGoods .mod_sharingPics .picList .picItem .author {
+	font-size: 12px;
+	margin-top: 8px
+}
+
+.page_sharingGoods .mod_sharingVideos {
+	padding-bottom: 80px
+}
+
+.page_sharingGoods .mod_sharingVideos .btnPrev,.page_sharingGoods .mod_sharingVideos .btnNext {
+	top: 12px;
+	margin-top: 0
+}
+
+.page_sharingGoods .mod_sharingVideos .videoBox {
+	height: 500px
+}
+
+.page_sharingGoods .mod_sharingVideos .videoListBox {
+	position: relative
+}
+
+.page_sharingGoods .mod_sharingVideos .videoListWrap {
+	overflow: hidden
+}
+
+.page_sharingGoods .mod_sharingVideos .videoList {
+	width: 800px;
+	margin-left: -36px
+}
+
+.page_sharingGoods .mod_sharingVideos .videoItem {
+	margin-left: 36px;
+	float: left
+}
+
+.page_sharingGoods .mod_sharingVideos .videoItem img {
+	padding: 2px;
+	border: 1px solid #f1f1f1
+}
+
+.page_sharingGoods .mod_sharingVideos .videoItem .author {
+	font-size: 12px;
+	margin-top: 8px
+}
+
+.page_sharingGoods .mod_sharingVideos .videoItem_current img {
+	padding: 0;
+	border: 3px solid #38c85e
+}
+
+.en .page_christmas .f_bd {
+	background: url("../img/ac/christmas_mod1_en.png"/*tpa=https://www.pandaminer.com/static/img/ac/christmas_mod1_en.png*/) 50% 0 no-repeat
+}
+
+.en .pageMod1 .f_wrapper {
+	padding-top: 185px
+}
+
+.en .pageMod1 .giftBox .giftList .giftListItem_plainText {
+	font-size: 18px
+}
+
+.page_groupBuying .groupBuyingHd {
+	text-align: center;
+	padding: 80px 0
+}
+
+.page_groupBuying .groupBuyingHd .pageTitle {
+	font-size: 40px
+}
+
+.page_groupBuying .groupBuyingHd .pageTitle em {
+	color: #FF0000
+}
+
+.page_groupBuying .groupBuyingHd .duration {
+	font-size: 18px;
+	color: #333333
+}
+
+.page_groupBuying .f_bd {
+	background-color: #FFF
+}
+
+.page_groupBuying .f_bd .f_wrapper {
+	width: 1000px
+}
+
+.page_groupBuying .productSummary {
+	overflow: hidden;
+	padding-bottom: 50px
+}
+
+.page_groupBuying .productGallery {
+	width: 400px;
+	font-size: 0;
+	float: left
+}
+
+.page_groupBuying .productGallery img {
+	display: block
+}
+
+.page_groupBuying .productGallery .enlargedImg {
+	display: block;
+	border: 1px solid #dfdfdf
+}
+
+.page_groupBuying .productGallery .enlargedImg img {
+	width: 398px;
+	height: 398px
+}
+
+.page_groupBuying .productGallery .thumbnailImgList {
+	position: relative;
+	width: 490px;
+	overflow: hidden
+}
+
+.page_groupBuying .productGallery .thumbnailImg {
+	width: 88px;
+	height: 88px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px
+}
+
+.page_groupBuying .productGallery .thumbnailImg a {
+	border: 1px solid #dfdfdf;
+	display: block
+}
+
+.page_groupBuying .productGallery .thumbnailImg img {
+	width: 86px;
+	height: 86px
+}
+
+.page_groupBuying .productGallery .thumbnailImg_current a {
+	border: 2px solid #FF0000
+}
+
+.page_groupBuying .productGallery .thumbnailImg_current img {
+	width: 84px;
+	height: 84px
+}
+
+.page_groupBuying .productInfo {
+	float: right;
+	width: 560px
+}
+
+.page_groupBuying .productInfo .productName {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 10px
+}
+
+.page_groupBuying .productInfo .productName .tagHot,.page_groupBuying .productInfo .productName .tagPresell,.page_groupBuying .productInfo .productName .tagPresellEnd {
+	padding: 0 12px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.page_groupBuying .productInfo .productName .tagHot {
+	background-color: #ff7611
+}
+
+.page_groupBuying .productInfo .productName .tagPresellEnd {
+	background-color: #97989b
+}
+
+.page_groupBuying .productInfo .productName .tagPresell {
+	background-color: #2c92f0
+}
+
+.page_groupBuying .productInfo .productIntro {
+	font-size: 16px;
+	color: #666;
+	margin-top: 15px
+}
+
+.page_groupBuying .productInfo .priceBox {
+	background-color: #f1f1f3;
+	font-size: 16px;
+	vertical-align: bottom;
+	line-height: 1.2;
+	padding: 8px 10px 0;
+	height: 42px;
+	margin: 30px 0 40px;
+	color: #333
+}
+
+.page_groupBuying .productInfo .priceBox span {
+	vertical-align: bottom
+}
+
+.page_groupBuying .productInfo .priceBox .groupPrice {
+	color: #FF0000;
+	font-size: 30px;
+	margin-bottom: -2px;
+	margin-right: 3px
+}
+
+.page_groupBuying .productInfo .priceBox .original {
+	margin-left: 40px
+}
+
+.page_groupBuying .productInfo .priceBox .original .price {
+	text-decoration: line-through
+}
+
+.page_groupBuying .productInfo .priceBox .normalPrice {
+	font-size: 26px
+}
+
+.page_groupBuying .productInfo .priceBox .BTCPrice {
+	font-size: 14px;
+	color: #999
+}
+
+.page_groupBuying .productInfo .priceBox .priceOriginal .price {
+	text-decoration: line-through
+}
+
+.page_groupBuying .productInfo .group_PriceBox {
+	height: auto;
+	padding: 8px 10px
+}
+
+.page_groupBuying .productInfo .group_PriceBox .priceGroup,.page_groupBuying .productInfo .group_PriceBox .priceOriginal {
+	background-color: #f1f1f3
+}
+
+.page_groupBuying .productInfo .group_PriceBox .priceGroup {
+	margin-bottom: 10px
+}
+
+.page_groupBuying .productInfo .btnBuy {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px
+}
+
+.page_groupBuying .productInfo .btnBuy+.btnBuy {
+	margin-left: 8px
+}
+
+.page_groupBuying .productInfo .paramItem {
+	margin-bottom: 30px
+}
+
+.page_groupBuying .productInfo .paramTitle {
+	display: inline-block;
+	width: 90px;
+	line-height: 40px;
+	vertical-align: top
+}
+
+.page_groupBuying .productInfo .paramValue {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0
+}
+
+.page_groupBuying .productInfo .paramValue .m_selectItem {
+	margin-right: 10px
+}
+
+.page_groupBuying .groupBuyingRules {
+	margin: 20px 0
+}
+
+.page_groupBuying .groupBuyingRules .title {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: bold
+}
+
+.page_groupBuying .groupBuyingRules .ruleItem {
+	color: #333;
+	font-size: 14px
+}
+
+.page_groupBuying .groupBuyingRecord .title {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: bold
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder {
+	border: 1px solid #dfdfdf
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modHd {
+	background-color: #f9f9fa;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modHd .time {
+	float: left
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modHd .more {
+	float: right
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd {
+	padding: 20px
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd .modContent {
+	position: relative;
+	min-height: 120px;
+	padding-left: 140px;
+	padding-top: 8px
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd .modContent .productImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dfdfdf
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd .modContent .productName {
+	color: #000;
+	font-size: 20px;
+	margin-bottom: 8px;
+	font-weight: bold
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd .modContent .groupStatus em {
+	color: #FF0000
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd .modContent .groupStatus .linkPay {
+	margin-left: 5px
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modBd .modContent .groupMember {
+	margin-top: 30px
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modFt {
+	padding: 20px;
+	background-color: #f9f9fa
+}
+
+.page_groupBuying .groupBuyingRecord .mod_groupBuyingOrder .modFt .urlBox {
+	width: 578px;
+	height: 38px;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	padding: 0 10px;
+	margin-right: 15px
+}
+
+.page_groupBuying .mod_groupBuyingGuide {
+	background-color: #f1f1f3
+}
+
+.page_groupBuying .mod_groupBuyingGuide .f_wrapper {
+	width: 1000px;
+	padding-bottom: 100px
+}
+
+.page_groupBuying .mod_groupBuyingGuide .modTitle {
+	font-size: 22px;
+	text-align: center;
+	padding: 40px 0
+}
+
+.page_groupBuying .mod_groupBuyingGuide .routine {
+	background: url("../img/groupBuyRoutine.png"/*tpa=https://www.pandaminer.com/static/img/groupBuyRoutine.png*/);
+	height: 115px;
+	padding: 0 20px
+}
+
+.page_groupBuying .mod_groupBuyingGuide .routine li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding-top: 50px
+}
+
+.page_groupBuying .mod_groupBuyingGuide .routineInstruction {
+	padding-top: 40px;
+	width: 630px;
+	margin: 0 auto
+}
+
+.page_groupBuying .mod_groupBuyingGuide .routineInstruction li {
+	margin-bottom: 35px
+}
+
+.page_groupBuying .mod_groupBuyingGuide .routineInstruction p {
+	color: #000;
+	font-weight: bold
+}
+
+.page_groupBuying .mod_groupBuyingGuide .routineInstruction img {
+	margin-top: 20px
+}
+
+.page_groupBuying .groupMember .member {
+	padding: 0 10px;
+	border-left: 1px solid #ccc
+}
+
+.page_groupBuying .groupMember .member:first-child {
+	border-left: none
+}
+
+.page_groupBuying .groupMember .i_question {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 20px;
+	height: 20px;
+	background-position: 0 -218px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px;
+	margin-right: 5px
+}
+
+.page_groupBuying .groupMember .i_tick {
+	background-repeat: no-repeat;
+	background-image: url("../img/iconSprites-s57104239e7.png"/*tpa=https://www.pandaminer.com/static/img/iconSprites-s57104239e7.png*/);
+	width: 20px;
+	height: 20px;
+	background-position: 0 -268px;
+	font-size: 0;
+	vertical-align: middle;
+	display: inline-block;
+	text-indent: -9999px;
+	margin-right: 5px
+}
+
+.page_groupBuyingDetail .f_bd .f_wrapper {
+	width: 1100px
+}
+
+.page_groupBuyingDetail .productGallery {
+	width: 480px
+}
+
+.page_groupBuyingDetail .productGallery .enlargedImg img {
+	width: 478px;
+	height: 478px
+}
+
+.page_groupBuyingDetail .productInfo {
+	width: 570px
+}
+
+.page_groupBuyingDetail .groupingStatus {
+	margin-top: 10px;
+	padding-left: 10px
+}
+
+.page_groupBuyingDetail .groupingStatus em {
+	color: #FF0000
+}
+
+.page_groupBuyingDetail .mod_groupingStatus {
+	background-color: #f1f1f3;
+	text-align: center;
+	padding: 20px 0 10px
+}
+
+.page_groupBuyingDetail .mod_groupingStatus .statusTips {
+	font-weight: bold;
+	font-size: 22px
+}
+
+.page_groupBuyingDetail .mod_groupingStatus .statusTips em {
+	color: #FF0000
+}
+
+.page_groupBuyingDetail .mod_groupingStatus .groupMember {
+	margin: 25px 0
+}
+
+.page_groupBuyingDetail .mod_rules {
+	padding: 35px 0
+}
+
+.page_groupBuyingDetail .mod_rules .title {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 15px
+}
+
+.page_groupBuyingDetail .mod_rules .ruleItem {
+	width: 440px;
+	margin: 0 auto;
+	color: #333;
+	margin-bottom: 3px
+}
+
+.page_groupBuyingDetail .mod_groupBuyingGuide {
+	padding: 0 50px 70px
+}
+
+.page_groupBuyingDetail .productDescription {
+	padding-top: 25px
+}

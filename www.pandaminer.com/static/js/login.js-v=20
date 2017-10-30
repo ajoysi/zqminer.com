@@ -1,0 +1,206 @@
+function loginBoxShow() {
+    $("#login-box").removeClass("hide");
+    $("#login-box").addClass("show");
+};
+
+function loginBoxHide() {
+    $("#login-box").removeClass("show");
+    $("#login-box").addClass("hide");
+};
+
+function registBoxHide() {
+    $("#regist-box").removeClass("show");
+    $("#regist-box").addClass("hide");
+};
+
+function registBoxShow() {
+    $("#regist-box").removeClass("hide");
+    $("#regist-box").addClass("show");
+};
+
+function checkLogin() {
+    var stop = false;
+    $.ajax({
+        url: "/api/check_login",
+        data: {},
+        dataType: "json",
+        type: "post",
+        async: false, 
+        error: function() {
+            alert("error ")
+        },
+        success: function(data) {
+            
+           
+            if (data.Code == "10005") {
+                loginBoxShow();
+                stop = true;
+                // alert("stop:" + stop);
+                return false;
+            }
+           
+        }
+    });
+     if (stop == true) {
+                // alert("stop is true");
+                return false;
+            } else {
+                // alert("stop is false");
+                return true;
+            }
+
+
+}
+
+$(document).ready(function() {
+    $("#login-captcha").keydown(function(event) {
+        if (event.which == "0XD" || event.keyCode == 13) {
+            $("#login-confirm-btn").trigger("click");
+            return false;
+        }
+    });
+
+    var lang = $("body").attr("lang");
+
+    // $("#login-box").addClass("hide");
+
+    $(".moreOp_register").click(function() {
+        loginBoxHide();
+        registBoxShow();
+    });
+
+
+    $("#login-btn").click(function() {
+        registBoxHide();
+        loginBoxShow();
+    });
+
+    $("#login-box-close").click(loginBoxHide);
+
+    $("#login-show-password").click(function() {
+        var type = $("#login-password").attr("type");
+        if (type == "password") {
+            $("#login-password").attr("type", "text");
+             $("#login-show-password").removeClass("i_pwd_hidden");
+            $("#login-show-password").addClass("i_pwd_show");
+        } else {
+            $("#login-password").attr("type", "password");
+             $("#login-show-password").removeClass("i_pwd_show");
+            $("#login-show-password").addClass("i_pwd_hidden");
+        }
+    });
+
+    function refreshCaptcha() {
+        $.ajax({
+            url: "/api/refresh_captcha",
+            data: {},
+            dataType: "json",
+            type: "post",
+            error: function() {
+                alert("error ")
+            },
+            success: function(data) {
+                switch (data.Code) {
+                    case "0":
+                        $("#login-captcha-img").attr("src", "/captcha/" + data.Msg + ".png");
+                        $("#login-captcha-id").attr("value", data.Msg);
+                        break;
+                }
+            }
+        });
+    };
+
+    $("#login-captcha-refresh").click(function() {
+        refreshCaptcha();
+    });
+
+    $("#login-confirm-btn").click(function() {
+        var btn = $(this);
+        if (btn.attr("processing")) {
+            return;
+        }
+        var username = $("#login-username").val();
+        var password = $("#login-password").val();
+        var captcha = $("#login-captcha").val();
+        var captcha_id = $("#login-captcha-id").val();
+        var callback = $("#callback").val();
+
+        if (!(username == "" || password == "" || captcha == "")) {
+            btn.addClass("b_btnDisable");
+            btn.attr("processing", "true");
+
+            $.ajax({
+                url: "/account/login/",
+                data: {
+                    username: username,
+                    password: password,
+                    captcha: captcha,
+                    captcha_id: captcha_id,
+                    callback: callback,
+                },
+                dataType: "json",
+                type: "post",
+                error: function() {
+                    btn.removeClass("b_btnDisable");
+                    btn.removeAttr("processing");
+                },
+                success: function(data) {
+                    switch (data.Code) {
+                        case "0":
+                            window.location.href = data.Msg;
+                            break;
+                        case "10001":
+                            if (lang == "cn") {
+                                alert("验证码错误，请重新输入。");
+                            } else {
+                                alert("Captcha wrong,please input again")
+                            }
+                            refreshCaptcha();
+                            break;
+                        case "90005":
+                            if (lang == "cn") {
+                                alert("资料填写不完整");
+                            } else {
+                                alert("Incomplete information")
+                            }
+                            refreshCaptcha();
+                            break;
+                        case "10011":
+                            if (lang == "cn") {
+                                alert("邮箱未激活");
+                            } else {
+                                alert("Email not verified")
+                            }
+                            refreshCaptcha();
+                            break;
+                        case "10012":
+                            if (lang == "cn") {
+                                alert("账号被冻结");
+                            } else {
+                                alert("Account was frozen")
+                            }
+                            refreshCaptcha();
+                            break;
+                        case "10002":
+                            if (lang == "cn") {
+                                alert("账号或密码错误，请重新输入。");
+                            } else {
+                                alert("Account or password error")
+                            }
+                            refreshCaptcha();
+                            break;
+                        default:
+                            alert("未知错误，请刷新重试。");
+                            refreshCaptcha();
+                            $("#login-password").val("");
+                            $("#login-captcha").val("");
+                            break;
+                    }
+                    btn.removeClass("b_btnDisable");
+                    btn.removeAttr("processing");
+                }
+            });
+        }
+    });
+
+});
