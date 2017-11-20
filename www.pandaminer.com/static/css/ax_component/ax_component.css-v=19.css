@@ -333,7 +333,7 @@ body,html {
 }
 
 .f_banner,.f_bannerList,.f_bd,.f_ft,.f_hd,.f_mod {
-	position: relative
+	position: relative;    border: 1px solid #f0f0f0;
 }
 
 .f_wrapper {
