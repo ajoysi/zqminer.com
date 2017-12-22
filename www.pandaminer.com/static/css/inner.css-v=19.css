@@ -322,7 +322,7 @@
 .page_distribute .mod_distribute .infoBox_slogan .distributeItem .contact{font-size:16px;}
 .page_distribute .mod_distribute .infoBox_slogan .buyNotice{margin-top:50px;color:#999;text-align:center;font-size:14px;}
 .page_configInstruction .sectionTitle{margin-bottom:15px;color:#333;font-size:20px;}
-.page_configInstruction .deviceReviewBanner{display:block;margin-bottom:45px;height:180px;background-image:url(../img/deviceReviewBanner_cn.jpg);background-size:cover;text-indent:-9999px;}
+.page_configInstruction .deviceReviewBanner{cursor:pointer;display:block;margin-bottom:45px;height:180px;background-image:url(../img/deviceReviewBanner_cn.jpg);background-size:cover;text-indent:-9999px;}
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx),(-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi){.page_configInstruction .deviceReviewBanner{background-image:url(../img/deviceReviewBanner_cn_hd.jpg);}
 }
 .page_configInstruction .mod_softwareDownload{margin-bottom:40px;padding:40px;border:1px solid #e5e5e5;background-color:#fff;}
