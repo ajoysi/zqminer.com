@@ -45,7 +45,7 @@ body,html{min-width:1100px}
 .f_wrapper{width:1100px;margin:0 auto;position:relative;height:100%}
 .f_hd{background-color:#f9f9fa;height:100px;position:relative;z-index:1}
 .f_bd{background-color:#f1f1f3}
-.f_ft{background-color:#fff;height:220px}
+.f_ft{background-color:#fff;height:280px}
 .f_hd{border-bottom:1px solid #f2f2f2}
 .f_hd .hd_nav{position:absolute;top:0;left:250px}
 .f_hd .hd_nav .navItem{float:left}

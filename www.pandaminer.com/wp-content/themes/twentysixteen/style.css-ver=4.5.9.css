@@ -35,7 +35,7 @@ optgroup{font-weight:700}
 .bypostauthor>article .fn:after,.comment-reply-title small a:before,.dropdown-toggle:after,.menu-item-has-children a:after,.pagination .nav-links:after,.pagination .nav-links:before,.pagination .next:before,.pagination .prev:before,.search-submit:before,.social-navigation a:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-family:Genericons;font-size:16px;font-style:normal;font-variant:normal;font-weight:400;line-height:1;speak:none;text-align:center;text-decoration:inherit;text-transform:none;vertical-align:top}
 body,button,input,select,textarea{color:#1a1a1a;font-size:14px;line-height:1.75}
 h1,h2,h3,h4,h5,h6{clear:both;margin:0;font-weight:400}
-p{margin:0 0 1.75em}
+p{line-height:1.1rem;}
 cite,dfn,em,i{font-style:italic}
 blockquote{border:0 solid #1a1a1a;border-left-width:4px;color:#686868;font-size:19px;font-size:1.1875rem;font-style:italic;line-height:1.4736842105;margin:0 0 1.4736842105em;padding:0 0 0 1.263157895em}
 blockquote,q{quotes:none}
